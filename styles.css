@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+}
+.banner {
+  background: url(/html/images/pexels-markusspiske-2061168.jpg);
+  background-clip: cover;
+  background-position: center;
+  background-repeat: none;
+  background-attachment: flex;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(/html/images/pexels-markusspiske-2061168.jpg); 
+}
