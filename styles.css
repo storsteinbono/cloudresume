@@ -42,3 +42,35 @@
 .header-menu a:hover {
   color: #0078ff;
 }
+/* Paragraphs */
+.styled-paragraph {
+  text-align: center;
+  width: max-content;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px 25px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Paragraph Header */
+.paragraph-header {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
