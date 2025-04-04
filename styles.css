@@ -3,23 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-div {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Winky Sans font class */
+.winky-sans {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Header menu styling */
+.header-menu {
   text-align: center;
-  font-size: 60px;
-  color: orange;
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
-.banner {
-  background: url(/html/images/pexels-markusspiske-2061168.jpg);
-  background-clip: cover;
-  background-position: center;
-  background-repeat: none;
-  background-attachment: flex;
+
+.header-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
-.header {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url(/html/images/pexels-markusspiske-2061168.jpg); 
+
+.header-menu li {
+  margin: 0 15px;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 5px;
+  display: block;
+}
+
+.header-menu a:hover {
+  color: #0078ff;
 }
