@@ -45,7 +45,6 @@
 /* Paragraphs */
 .styled-paragraph {
   text-align: center;
-  width: max-content;
   max-width: 800px;
   margin: 20px auto;
   padding: 15px 25px;
